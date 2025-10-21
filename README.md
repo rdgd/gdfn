@@ -10,7 +10,7 @@ rdgd/gdfn v0.0.1
 ```
 Then run `bot install` and include in your project like:
 ```
-var Fn = require("gdfn");
+var Fn = Bot.file("gdfn");
 
 var doubled = Fn.map([1, 2, 3], func(x): return x * 2)  # [2, 4, 6]
 var sum = Fn.reduce([1, 2, 3], func(x, acc): return acc + x, 0)  # 6

@@ -6,7 +6,7 @@ A functional programming utility library for Godot 4, providing immutable array/
 To include as a Godotbot (a.k.a. bot) dependency. Add this library to your Botfile dependencies
 ```
 [dependencies]
-rdgd/gdfn v0.0.1
+rdgd/gdfn v0.1.1
 ```
 Then run `bot install` and include in your project like:
 ```
@@ -569,3 +569,4 @@ var total = Fn.reduce(
 ## License
 
 MIT License - Free to use in your projects
+
